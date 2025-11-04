@@ -1,0 +1,103 @@
+{
+  "ProjectName": "gg",
+  "DLSVersion_LastSaved": "2.1.6",
+  "DLSVersion_EarliestCompatible": "2.0.0",
+  "CreationTime": "2025-09-08T20:59:15.038-03:00",
+  "LastSaveTime": "2025-10-28T12:53:39.173-03:00",
+  "Prefs_MainPinNamesDisplayMode": 0,
+  "Prefs_ChipPinNamesDisplayMode": 1,
+  "Prefs_GridDisplayMode": 0,
+  "Prefs_Snapping": 0,
+  "Prefs_StraightWires": 0,
+  "Prefs_SimPaused": false,
+  "Prefs_SimTargetStepsPerSecond": 1000,
+  "Prefs_SimStepsPerClockTick": 250,
+  "AllCustomChipNames":[
+    "NOT",
+    "AND",
+    "OR",
+    "NOR",
+    "XOR",
+    "XNOR",
+    "half adder",
+    "full adder",
+    "2-BIT-ADDER",
+    "4-BIT-ADDER"
+  ],
+  "StarredList":[
+    {
+      "Name":"IN/OUT",
+      "IsCollection":true
+    },
+    {
+      "Name":"MERGE/SPLIT",
+      "IsCollection":true
+    },
+    {
+      "Name":"BUS",
+      "IsCollection":true
+    },
+    {
+      "Name":"basicg",
+      "IsCollection":true
+    },
+    {
+      "Name":"half adder",
+      "IsCollection":false
+    },
+    {
+      "Name":"full adder",
+      "IsCollection":false
+    },
+    {
+      "Name":"2-BIT-ADDER",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-BIT-ADDER",
+      "IsCollection":false
+    }
+  ],
+  "ChipCollections":[
+    {
+      "Chips":["CLOCK","PULSE","KEY","3-STATE BUFFER"],
+      "IsToggledOpen":true,
+      "Name":"BASIC"
+    },
+    {
+      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
+      "IsToggledOpen":true,
+      "Name":"IN/OUT"
+    },
+    {
+      "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
+      "IsToggledOpen":true,
+      "Name":"MERGE/SPLIT"
+    },
+    {
+      "Chips":["BUS-1","BUS-4","BUS-8"],
+      "IsToggledOpen":false,
+      "Name":"BUS"
+    },
+    {
+      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED"],
+      "IsToggledOpen":true,
+      "Name":"DISPLAY"
+    },
+    {
+      "Chips":["ROM 256×16"],
+      "IsToggledOpen":false,
+      "Name":"MEMORY"
+    },
+    {
+      "Chips":["BUZZER"],
+      "IsToggledOpen":true,
+      "Name":"OTHER"
+    },
+    {
+      "Chips":["XNOR","XOR","NOR","OR","AND","NOT","NAND"],
+      "IsToggledOpen":true,
+      "Name":"basicg"
+    }
+  ]
+}
