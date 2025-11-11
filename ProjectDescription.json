@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-10-07T20:09:06.204-03:00",
-  "LastSaveTime": "2025-11-05T02:25:26.083-03:00",
+  "LastSaveTime": "2025-11-11T18:41:55.045-03:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 0,
   "Prefs_GridDisplayMode": 0,
@@ -24,7 +24,8 @@
     "2-BIT-ADDER",
     "3-BIT-ADDER",
     "4-BIT-ADDER",
-    "half sub"
+    "half sub",
+    "Full sub"
   ],
   "StarredList":[
     {
@@ -40,22 +41,22 @@
       "IsCollection":true
     },
     {
+      "Name":"subtractor",
+      "IsCollection":true
+    },
+    {
       "Name":"MERGE/SPLIT",
       "IsCollection":true
     },
     {
       "Name":"BUS",
       "IsCollection":true
-    },
-    {
-      "Name":"half sub",
-      "IsCollection":false
     }
   ],
   "ChipCollections":[
     {
       "Chips":["CLOCK","PULSE","KEY","3-STATE BUFFER"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"BASIC"
     },
     {
@@ -95,8 +96,13 @@
     },
     {
       "Chips":["full adder","half adder","2-BIT-ADDER","3-BIT-ADDER","4-BIT-ADDER"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"adder"
+    },
+    {
+      "Chips":["half sub","Full sub"],
+      "IsToggledOpen":true,
+      "Name":"subtractor"
     }
   ]
 }
