@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-10-07T20:09:06.204-03:00",
-  "LastSaveTime": "2025-11-11T18:41:55.045-03:00",
+  "LastSaveTime": "2025-11-11T19:18:30.281-03:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 0,
   "Prefs_GridDisplayMode": 0,
@@ -25,7 +25,9 @@
     "3-BIT-ADDER",
     "4-BIT-ADDER",
     "half sub",
-    "Full sub"
+    "Full sub",
+    "3-XOR",
+    "3-AND"
   ],
   "StarredList":[
     {
@@ -42,6 +44,10 @@
     },
     {
       "Name":"subtractor",
+      "IsCollection":true
+    },
+    {
+      "Name":"OTHER",
       "IsCollection":true
     },
     {
@@ -80,18 +86,13 @@
       "Name":"DISPLAY"
     },
     {
-      "Chips":["ROM 256×16"],
+      "Chips":["3-XOR","3-AND"],
       "IsToggledOpen":false,
-      "Name":"MEMORY"
-    },
-    {
-      "Chips":["BUZZER"],
-      "IsToggledOpen":true,
       "Name":"OTHER"
     },
     {
       "Chips":["NOT","AND","NAND","OR","NOR","XOR","XNOR"],
-      "IsToggledOpen":false,
+      "IsToggledOpen":true,
       "Name":"basicg"
     },
     {
@@ -101,8 +102,13 @@
     },
     {
       "Chips":["half sub","Full sub"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"subtractor"
+    },
+    {
+      "Chips":["ROM 256×16","BUZZER"],
+      "IsToggledOpen":true,
+      "Name":"MEMORY"
     }
   ]
 }
