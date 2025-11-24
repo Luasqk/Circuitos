@@ -14,3 +14,13 @@
 ### Entradas: A é o minuendo, B é o subtraendo e o Borrow In.
 ### Saídas: Diff e borrow out(o número emprestado).
 ### Explicação: São dois half subtractors e um OR. Seria A - B - C = Bo e se o resultado for ímpar, o diff ficará ativo.
+
+## 4X1 MUX
+### Entradas: São duas entradas de seleção e quatro entradas de dados.
+### Saídas: Apenas uma saída que poderá ser 0 ou 1.
+### Explicação: As entradas de seleção irão determinar qual entrada de dados será ativa. Sendo assim: 0 irá ativar a entrada 0, 1 vai ativar a 1, 10 vai ativar a 3 e 11 a 4. dessa maneira, o máximo são 4 bits.
+
+## 8X1 MUX
+### Entradas: São 3 entradas de seleção e 8 entradas de dados.
+### Saídas: Apenas uma saída que poderá ser 0 ou 1.
+### Explicação: As entradas de seleção irão determinar qual entrada de dados será ativa. A soma será de no máximo 8 bits, sendo o dobro da 4x1 MUX.
