@@ -1,6 +1,6 @@
 {
   "DLSVersion": "2.1.6",
-  "Name": "MUX 4X1",
+  "Name": "2-MUX",
   "NameLocation": 0,
   "ChipType": 0,
   "Size": {
@@ -144,8 +144,8 @@
       "ID":931774370,
       "Label":"",
       "Position":{
-        "x":6.87926,
-        "y":-0.97103
+        "x":6.92403,
+        "y":-1.03073
       },
       "OutputPinColourInfo":[{"PinColour":0,"PinID":1368587014}],
       "InternalData":null
@@ -498,7 +498,7 @@
       "ConnectionType":2,
       "ConnectedWireIndex":14,
       "ConnectedWireSegmentIndex":0,
-      "Points":[{"x":0.0,"y":0.0},{"x":-1.77046,"y":5.29672}]
+      "Points":[{"x":0.0,"y":0.0},{"x":-1.77047,"y":5.29672}]
     },
     {
       "SourcePinAddress":{
@@ -512,7 +512,7 @@
       "ConnectionType":1,
       "ConnectedWireIndex":14,
       "ConnectedWireSegmentIndex":0,
-      "Points":[{"x":-1.77269,"y":4.86089},{"x":0.0,"y":0.0}]
+      "Points":[{"x":-1.7727,"y":4.86089},{"x":0.0,"y":0.0}]
     },
     {
       "SourcePinAddress":{
@@ -554,7 +554,7 @@
       "ConnectionType":1,
       "ConnectedWireIndex":15,
       "ConnectedWireSegmentIndex":0,
-      "Points":[{"x":-0.79354,"y":0.978},{"x":0.0,"y":0.0}]
+      "Points":[{"x":-0.79353,"y":0.978},{"x":0.0,"y":0.0}]
     },
     {
       "SourcePinAddress":{
@@ -582,7 +582,7 @@
       "ConnectionType":1,
       "ConnectedWireIndex":14,
       "ConnectedWireSegmentIndex":0,
-      "Points":[{"x":-1.79953,"y":-0.3856},{"x":0.0,"y":0.0}]
+      "Points":[{"x":-1.79954,"y":-0.3856},{"x":0.0,"y":0.0}]
     },
     {
       "SourcePinAddress":{
@@ -596,7 +596,7 @@
       "ConnectionType":1,
       "ConnectedWireIndex":15,
       "ConnectedWireSegmentIndex":0,
-      "Points":[{"x":-0.79763,"y":-1.60986},{"x":0.0,"y":0.0}]
+      "Points":[{"x":-0.79762,"y":-1.60986},{"x":0.0,"y":0.0}]
     },
     {
       "SourcePinAddress":{
@@ -638,7 +638,7 @@
       "ConnectionType":1,
       "ConnectedWireIndex":14,
       "ConnectedWireSegmentIndex":0,
-      "Points":[{"x":-1.81269,"y":-2.95821},{"x":0.0,"y":0.0}]
+      "Points":[{"x":-1.8127,"y":-2.95821},{"x":0.0,"y":0.0}]
     }
   ],
   "Displays": null
