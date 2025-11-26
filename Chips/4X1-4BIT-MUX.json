@@ -37,7 +37,7 @@
       "ValueDisplayMode":0
     },
     {
-      "Name":"IN",
+      "Name":"I0",
       "ID":1772889127,
       "Position":{
         "x":-4.01589,
@@ -48,7 +48,7 @@
       "ValueDisplayMode":0
     },
     {
-      "Name":"IN",
+      "Name":"I1",
       "ID":317966746,
       "Position":{
         "x":-4.01589,
@@ -59,7 +59,7 @@
       "ValueDisplayMode":0
     },
     {
-      "Name":"IN",
+      "Name":"I2",
       "ID":1741069447,
       "Position":{
         "x":-3.89547,
@@ -70,7 +70,7 @@
       "ValueDisplayMode":0
     },
     {
-      "Name":"IN",
+      "Name":"I3",
       "ID":1568930510,
       "Position":{
         "x":-3.92988,

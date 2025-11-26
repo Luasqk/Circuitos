@@ -39,7 +39,7 @@
   ],
   "OutputPins":[
     {
-      "Name":"OUT",
+      "Name":"Diff",
       "ID":1780334829,
       "Position":{
         "x":12.04067,
