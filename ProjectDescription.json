@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-10-07T20:09:06.204-03:00",
-  "LastSaveTime": "2025-11-24T12:42:55.449-03:00",
+  "LastSaveTime": "2025-11-25T21:20:42.371-03:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_GridDisplayMode": 0,
@@ -31,7 +31,17 @@
     "4-OR",
     "2-MUX",
     "4-AND",
-    "3-MUX"
+    "3-MUX",
+    "DEMUX-2BIT",
+    "HALF-ULA",
+    "ULA-2BIT",
+    "4BIT-AND",
+    "4BIT-4OR",
+    "4BIT-3AND",
+    "DEMUX-4X1-4BIT",
+    "4BIT-2AND",
+    "4X1-4BIT-MUX",
+    "4BIT-SUB"
   ],
   "StarredList":[
     {
@@ -60,6 +70,10 @@
     },
     {
       "Name":"BUS",
+      "IsCollection":true
+    },
+    {
+      "Name":"basicg-4BIT",
       "IsCollection":true
     }
   ],
@@ -90,13 +104,13 @@
       "Name":"DISPLAY"
     },
     {
-      "Chips":["4-OR","3-XOR","3-AND","4-AND","2-MUX","3-MUX"],
+      "Chips":["4-OR","3-XOR","3-AND","4-AND","2-MUX","3-MUX","DEMUX-2BIT","HALF-ULA","ULA-2BIT","4BIT-3AND","DEMUX-4X1-4BIT","4BIT-2AND","4X1-4BIT-MUX","4BIT-SUB"],
       "IsToggledOpen":true,
       "Name":"OTHER"
     },
     {
       "Chips":["NOT","AND","NAND","OR","NOR","XOR","XNOR"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"basicg"
     },
     {
@@ -106,13 +120,18 @@
     },
     {
       "Chips":["half sub","Full sub"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"subtractor"
     },
     {
       "Chips":["ROM 256×16","BUZZER"],
       "IsToggledOpen":false,
       "Name":"MEMORY"
+    },
+    {
+      "Chips":["4BIT-AND","4BIT-4OR"],
+      "IsToggledOpen":false,
+      "Name":"basicg-4BIT"
     }
   ]
 }
